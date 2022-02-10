@@ -17,23 +17,23 @@ export default function ConsultaAdm() {
     const [isLoading, setIsLoading] = useState(false);
     let history = useHistory();
 
-    function logout(){
+    function logout() {
         localStorage.clear();
         history.push('/');
     }
 
     function listarConsultas() {
-        axios('http://localhost:5000/api/Consultas', {
+        axios('https://620549d4161670001741b77b.mockapi.io/Consulta', {
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem('usuario-login')
             }
         })
             .then(resposta => {
                 if (resposta.status === 200) {
+                    console.log(resposta)
                     setListaConsulta(resposta.data)
                 }
             })
-
             .catch(erro => console.log(erro))
     };
 
@@ -80,7 +80,7 @@ export default function ConsultaAdm() {
         evento.preventDefault()
 
         axios
-            .post('http://localhost:5000/api/Consultas', {
+            .post('https://620549d4161670001741b77b.mockapi.io/Consulta', {
                 idPaciente: idPaciente,
                 idMedico: idMedico,
                 dataConsulta: dataConsulta
@@ -127,18 +127,17 @@ export default function ConsultaAdm() {
                         <tr>
                             <th>Médico</th>
                             <th>Paciente</th>
-                            <th>Situação</th>
                             <th>Data a Consulta</th>
                             <th>Descrição</th>
                         </tr>
                     </thead>
                     <tbody>
                         {listaConsulta.map((consulta) => {
+                            console.log(consulta)
                             return (
-                                <tr key={consulta.idConsulta}>
-                                    <td>{consulta.idMedicoNavigation.idUsuarioNavigation.nome}</td>
-                                    <td>{consulta.idPacienteNavigation.idUsuarioNavigation.nome}</td>
-                                    <td>{consulta.idSituacaoNavigation.descricao}</td>
+                                <tr key={consulta.id}>
+                                    <td>{consulta.Medico[0].nomeMedico}</td>
+                                    <td>{consulta.Paciente[0].nomePaciente}</td>
                                     <td>{Intl.DateTimeFormat("pt-BR", {
                                         year: 'numeric', month: 'numeric', day: 'numeric',
                                         hour: 'numeric', minute: 'numeric', hour12: false

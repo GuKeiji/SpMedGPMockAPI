@@ -59,7 +59,7 @@ const routing = (
   <Router>
     <div>
       <Switch>
-        <Route exact path="/" component = {Login} /> {/* Login */}
+        <Route exact path="/" component = {Adm} /> {/* Login */}
         <Route path = "/paciente" component = {Paciente}/>
         <Route path = "/medico" component = {Medico}/>
         <Route path = "/adm" component = {Adm}/>
