@@ -1,0 +1,8 @@
+idPaciente,idUsuario,dataNascimento,CPF,RG,telefone,endereco
+1,1,1983-10-13,94839859000 ,435225435,11 34567654,Rua Estado de Israel 240, São Paulo, Estado de São Paulo, 04022-000
+2,2,2001-07-23,73556944057 ,326543457,11 987656543,Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200
+3,3,1978-10-10,16839338002 ,546365253,11 972084453,Av. Ibirapuera - Indianópolis, 2927,  São Paulo - SP, 04029-200
+4,4,1985-10-13,14332654765 ,543663625,11 34566543,R. Vitória, 120 - Vila Sao Jorge, Barueri - SP, 06402-030
+5,5,1975-08-27,91305348010 ,532544441,11 76566377,R. Ver. Geraldo de Camargo, 66 - Santa Luzia, Ribeirão Pires - SP, 09405-380
+6,6,1972-03-21,79799299004 ,545662667,11 954368769,Alameda dos Arapanés, 945 - Indianópolis, São Paulo - SP, 04524-001
+7,7,2018-03-05,13771913039 ,545662668,,R Sao Antonio, 232 - Vila Universal, Barueri - SP, 06407-140

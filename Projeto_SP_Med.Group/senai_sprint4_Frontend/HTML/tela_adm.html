@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sp Medical Group - Administrador</title>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+</head>
+
+<body class="tela_paciente">
+    <header class="header_tela_paciente">
+        <div class="container_header">
+            <img class="logo_header" src="../Assets/logo.png" alt="logo">
+            <div class="container_links">
+                <span>Home</span>
+                <span>Consultas</span>
+                <span>Sign-up</span>
+                <span>Sair</span>
+            </div>
+        </div>
+    </header>
+    <main class="container_main">
+        <div class="titulo_pagina_box container">
+            <h1>Minhas Consultas</h1>
+            <img class="icone_injecao" src="../Assets/seringa.png" alt="Icone de uma seringa de injeção">
+        </div>
+        <table class="tabela_consultas">
+            <thead class="tabela_consultas_thead">
+                <tr>
+                    <th>Médico</th>
+                    <th>Paciente</th>
+                    <th>Situação</th>
+                    <th>Data a Consulta</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Helenice</td>
+                    <td>Heleno</td>
+                    <td>Agendada</td>
+                    <td>04/10/22</td>
+                    <td>Presencial</td>
+                </tr>
+                <tr>
+                    <td>Helenice</td>
+                    <td>Heleno</td>
+                    <td>Agendada</td>
+                    <td>04/10/22</td>
+                    <td>Presencial</td>
+                </tr>
+                <tr>
+                    <td>Helenice</td>
+                    <td>Heleno</td>
+                    <td>Agendada</td>
+                    <td>04/10/22</td>
+                    <td>Presencial</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="cadastrar_consulta_box">
+            <h2>Nova Consulta</h2>
+            <div class="organizar_form">
+                <form class="form_cadastrar">
+                    <select class="input_select" placeholder="Nome Médico">
+                        <option class="titulo_select" value="0">Nome Médico</option>
+                    </select>
+                    <select class="input_select" placeholder="Nome Paciente">
+                        <option class="titulo_select" value="0">Nome Paciente</option>
+                    </select>
+                    <input class="input_cadastrar" placeholder="Descrição" type="text">
+                    <!-- <input type="datetime-local" value="2021-11-15" min="2005-01-01" max="2019-01-01"> -->
+                    <input class="input_cadastrar_data" value="2021-11-15" type="datetime-local">
+                    <div class="organizar_btn_cadastrar">
+                        <button class="btn_enviar">Cadastrar</button>
+                    </div>
+                </form>
+                <img class="img_form" src="../Assets/img_form.png" alt="Imagem de um Médico">
+            </div>
+        </div>
+    </main>
+    <footer class="footer_tela_paciente">
+
+        <div class="container_footer">
+            <ul class="lista_footer">
+                <li>Serviços</li>
+                <li>Consultas</li>
+                <li>Exames</li>
+                <li>Check-ups</li>
+                <li>Vacinas</li>
+                <li>Cirurgias</li>
+            </ul>
+            <img class="logo_header" src="../Assets/logo.png" alt="logo">
+            <p>Salvar vidas e cuidar das pessoas porque elas não podem esperar nas filas da saúde</p>
+        </div>
+    </footer>
+</body>
+
+</html>

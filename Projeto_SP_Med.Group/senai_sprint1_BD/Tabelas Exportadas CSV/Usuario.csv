@@ -1,0 +1,11 @@
+idUsuario,idTipoUsuario,nome,email,senha
+1,2,Ligia,ligia@gmail.com,ligia123
+2,2,Alexandre,alexandre@gmail.com,alexandre223
+3,2,Fernando,fernando@gmail.com,fernando323
+4,2,Henrique,henrique@gmail.com,henrique423
+5,2,Joao,joao@hotmail.com,joao5236
+6,2,Bruno,bruno@gmail.com,bruno623
+7,2,Mariana,mariana@outlook.com,mariana723
+8,1,Ricardo Lemos,ricardo.lemos@spmedicalgroup.com.br,ricardo813
+9,1,Roberto Possarle,roberto.possarle@spmedicalgroup.com.br,roberto913
+10,1,Helena Strada,helena.souza@spmedicalgroup.com.br,helena1013

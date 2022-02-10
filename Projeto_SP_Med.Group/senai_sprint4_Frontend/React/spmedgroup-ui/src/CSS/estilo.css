@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* GRID */
+
+.container {
+    width: 80%;
+}
+
+/* TELA LOGIN */
+
+.tela_login_fundo {
+    display: flex;
+    background-color: #E0E0E0;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fundo_login {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 886px;
+    height: 575px;
+}
+
+.form_login {
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 443px;
+    height: 575px;
+}
+
+.img_login {
+    height: 575px;
+    width: 443px;
+}
+
+.logo_login {
+    width: 97px;
+    height: 101px;
+}
+
+.organizar_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    /* width: 673.23px; */
+}
+
+.input_login {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 355px;
+    height: 36px;
+}
+
+.input_login:focus, input:focus, select:focus {
+    box-shadow: 0;
+    /* border: 0 none; */
+    outline: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.input_login::placeholder {
+    color: #AAAAAA;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.organizar_btn {
+    display: flex;
+    width: 355px;
+    justify-content: flex-start;
+}
+
+.btn_login {
+    background-color: #81DF99;
+    color: white;
+    border-radius: 35px;
+    width: 146px;
+    height: 35px;
+    text-transform: uppercase;
+    border-style: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* FIM TELA LOGIN */
+
+.tela_paciente {
+    align-items: center;
+    width: 100vw;
+    background-color: #f8f8f8;
+    overflow-x: hidden; 
+}
+
+.header_tela_paciente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 125px;
+    width: 100%;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 125px;
+}
+
+.logo_header {
+    width: 54px;
+    height: 58px;
+}
+
+.container_links {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    text-transform: uppercase   ;
+}
+
+.container_links_link {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #007397;
+    text-decoration: none;
+}
+
+.container_links_button {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #007397;
+    text-decoration: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase
+}
+
+.container_main_paciente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1536px;
+    margin-bottom: 200px;
+}
+
+.container_main_medico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1536px;
+    margin-bottom: 200px;
+}
+
+.container_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1536px;
+    margin-bottom: 200px;
+}
+
+
+.titulo_pagina_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 166px;
+    width: 80%;
+    background-color: #0E88AE;
+}
+
+.titulo_pagina_box h1 {
+    font-size: 44px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+.icone_injecao {
+    width: 100px;
+    height: 100px;
+}
+
+.tabela_consultas{
+    padding: 8px 0;
+    font-weight: lighter;
+    text-align: left;
+    table-layout: fixed;
+    width: 80%;
+    white-space: nowrap;
+    font-size: 12px;
+    background-color: #0E88AE;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.tabela_consultas th {
+    padding: 0 0 10px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tabela_consultas td {
+    padding: 0 0 25px 10px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.btn_edit{
+    background: none;
+    cursor: pointer;
+    border-color: #0E88AE;
+    border-style: hidden;
+}
+
+.cadastrar_consulta_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 699px;
+    width: 80%;
+    background-color: #0E88AE;
+}
+
+.cadastrar_consulta_box h2 {
+    color: white;
+    font-size: 57px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.organizar_form{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 350px;
+}
+
+.form_cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input_select{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: white;
+    background-color: #0e88ae;
+    width: 355px;
+    height: 36px;
+    color: white;
+}
+
+.input_cadastrar{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #ffffff;
+    border-bottom-color: white;
+    background-color: #0e88ae;
+    width: 355px;
+    height: 36px;
+}
+
+.input_cadastrar:focus, input:focus, select:focus {
+    box-shadow: 0;
+    outline: 0;
+    border-bottom: 1px solid white;
+}
+
+.input_cadastrar::placeholder{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.input_cadastrar_data{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: white;
+    background-color: #0e88ae;
+    width: 355px;
+    height: 36px;
+    color: white;
+       
+}
+
+.input_cadastrar_data::-webkit-calendar-picker-indicator{
+    background: #0e88ae;
+    height: 100%;
+    background-image: url(../Assets/calendar.png);
+    width: 10px;
+    height: 12px;
+}
+
+.btn_enviar {
+    background-color: #81DF99;
+    color: white;
+    border-radius: 35px;
+    width: 146px;
+    height: 35px;
+    text-transform: uppercase;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.organizar_btn_cadastrar{
+    width: 100%;
+    height: 36px;
+}
+
+.img_form{
+    width: 42%;
+    height: 93%;
+}
+
+.box_alterar_descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 266px;
+    width: 80%;
+    background-color: #0E88AE;
+}
+
+.box_alterar_descricao h2{
+    font-size: 44px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+.footer_tela_paciente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 125px;
+    width: 100%;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.container_footer p {
+    width: 118px;
+    height: 85%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #007397;
+    font-size: 14.3px;
+}
+
+.lista_footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14.3px;
+    color: #007397;
+    margin-left: 17px;
+}
+
+@media (max-width: 768px){
+
+    .img_form{
+        display: none;
+    }
+    
+    .organizar_form{
+        display: flex;
+        justify-content: center;
+        /* background-color: blueviolet; */
+        width: 80%;
+        height: 350px;
+    }
+}
+
+/*   
+  #tabela-lista td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+  }
+  
+  #tabela-lista td,
+  #tabela-lista th {
+    text-align: left;
+    border: 1px solid #f6f6f6;
+    padding: 8px;
+  }
+  
+  #tabela-lista tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  #tabela-lista tr:hover {
+    background-color: #ddd;
+  }
+  
+  #tabela-lista th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6f47ff;
+    color: white;
+  }
+   */
+/* FIM TELA PACIENTE */
+
+/*INPUT DATA*/
+/* body {
+    font-size:16px;
+
+    background:#0e88ae;
+  }
+  
+  input[type="datetime"] {
+    display:block;
+    position:relative;
+    height: 36px;
+    color: white;
+    width: 100%;
+    padding:1rem 3.5rem 1rem 0.75rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: white;    font-size:1rem;
+    font-family:monospace;
+    background:
+    #0e88ae
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='22' viewBox='0 0 20 22'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23688EBB' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' transform='translate(1 1)'%3E%3Crect width='18' height='18' y='2' rx='2'/%3E%3Cpath d='M13 0L13 4M5 0L5 4M0 8L18 8'/%3E%3C/g%3E%3C/svg%3E")
+      right 1rem
+      center
+      no-repeat;
+    
+    cursor:pointer;
+  }
+  
+  ::-webkit-datetime-edit {}
+  ::-webkit-datetime-edit-fields-wrapper {}
+  ::-webkit-datetime-edit-month-field:hover,
+  ::-webkit-datetime-edit-day-field:hover,
+  ::-webkit-datetime-edit-year-field:hover {
+    background:rgba(0, 120, 250, 0.1);
+  }
+  ::-webkit-datetime-edit-text {
+    opacity:0;
+  }
+  ::-webkit-clear-button,
+  ::-webkit-inner-spin-button {
+    display:none;
+  }
+  ::-webkit-calendar-picker-indicator {
+    position:absolute;
+    width:2.5rem;
+    height:100%;
+    top:0;
+    right:0;
+    bottom:0;
+    
+    opacity:0;
+    cursor:pointer;
+    
+    color:rgba(0, 120, 250, 1);
+    background:rgba(0, 120, 250, 1);
+   
+  }
+  
+  input[type="date"]:hover::-webkit-calendar-picker-indicator { opacity:0.05; }
+  input[type="date"]:hover::-webkit-calendar-picker-indicator:hover { opacity:0.15; } */

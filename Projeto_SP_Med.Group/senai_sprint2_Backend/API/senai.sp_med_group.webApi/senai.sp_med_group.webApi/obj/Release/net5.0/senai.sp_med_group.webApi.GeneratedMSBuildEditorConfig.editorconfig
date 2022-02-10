@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = senai.sp_med_group.webApi
+build_property.ProjectDir = E:\HD\SENAI-2ºT\projetoSP\Projeto_SP_Med.Group\API\senai.sp_med_group.webApi\senai.sp_med_group.webApi\
